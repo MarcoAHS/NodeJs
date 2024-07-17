@@ -1,0 +1,6 @@
+const fs = require('node:fs/promises')
+console.log('Leyendo Primer Texto...')
+fs.readFile('./archivo.txt', 'utf-8').then(text => console.log(text))
+console.log('Sigue el Flujo del Codigo...')
+fs.readFile('./archivo2.txt', 'utf-8').then(text => console.log(text))
+console.log('Ajustes Pre-finalizando proceso...')
